@@ -1,0 +1,9 @@
+---
+import { getPokemon } from "../services/generations";
+import { pokemon } from "../services/pokemondata"
+---
+
+<section>
+  {getPokemon(1)}
+  {pokemon().id}
+</section>
